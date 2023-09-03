@@ -35,7 +35,7 @@
 
         default_layer {
             bindings = <
-           &tog 4  &kp GRAVE  &kp Q        &kp W           &kp E          &kp R            &mt GRAVE T                &kp Y              &kp U    &kp I     &kp O          &kp P  &kp LBKT  &mt RWIN RBKT
+            &to 4  &kp GRAVE  &kp Q        &kp W           &kp E          &kp R            &mt GRAVE T                &kp Y              &kp U    &kp I     &kp O          &kp P  &kp LBKT  &mt RWIN RBKT
         &kp LCTRL      &kp A  &kp S        &kp D           &kp F          &kp G                  &kp H                &kp J              &kp K    &kp L  &kp SEMI  &mt RCTRL SQT
 &mt LALT LS(LALT)      &kp Z  &kp X        &kp C           &kp V          &kp B                  &kp N  &mt RIGHT_BRACKET M          &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
                                      &lt RSE TAB  &mt LSHFT LWIN  &lt LWR SPACE  &lt LWR LC(BACKSPACE)      &mt RSHFT ENTER  &lt RSE BACKSPACE
@@ -71,7 +71,7 @@
 
         game_layer {
             bindings = <
-  &tog 0    &kp ESC  &kp TAB      &kp Q      &kp W      &kp E   &kp R  &kp N7  &kp N8    &kp N9    &trans     &trans  &trans  &trans
+   &to 0    &kp ESC  &kp TAB      &kp Q      &kp W      &kp E   &kp R  &kp N7  &kp N8    &kp N9    &trans     &trans  &trans  &trans
 &kp LWIN  &kp LSHFT    &kp A      &kp S      &kp D      &kp F  &kp N4  &kp N5  &kp N6    &trans    &kp UP  &kp RIGHT
   &tog 0  &kp LCTRL    &kp Z      &kp X      &kp C      &kp V  &kp N1  &kp N2  &kp N3  &kp LEFT  &kp DOWN     &trans
                               &kp LCTRL  &kp LSHFT  &kp SPACE  &trans  &kp N0  &trans
